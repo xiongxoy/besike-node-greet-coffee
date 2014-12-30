@@ -1,0 +1,20 @@
+{
+  "name": "greet",
+  "version": "0.0.1",
+  "description": "A simple and native greeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-hello"
+  ],
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "author": "Zhou Xiong",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.1.0"
+  }
+}
