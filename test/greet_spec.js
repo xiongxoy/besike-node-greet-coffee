@@ -1,4 +1,4 @@
-var greet = require('greet');
+var greet = require('..');
 
 describe('greet', function () {
   var name = 'ZhouXiong',
