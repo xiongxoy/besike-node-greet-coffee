@@ -1,0 +1,10 @@
+README.md
+.npmignore
+.git*
+.DS_Store
+*.tgz
+test/
+src/
+START
+END
+note.md
