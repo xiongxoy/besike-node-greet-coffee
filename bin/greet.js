@@ -1,11 +1,4 @@
 #!/usr/bin/env node
+var command = require('../lib/command');
+command();
 
-var greet = require('../lib/index.js');
-var parseArgs = require('minimist');
-
-var args = parseArgs(process.argv.slice(2));
-
-var name = args._[0];
-var drunk = args.drunk;
-
-console.log(greet(name, drunk));
